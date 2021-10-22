@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rune Lehtonen | Portfolio</title>
+  <meta name="description" content="Rune Lehtonen's portfolio.">
+  <meta name="author" content="Rune Lehtonen">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#111111">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<!-- Header Section ––––––––––––––––––––––––––––––––––––––––––––––––––-->
+<header class="header">
+  <nav class="navbar">
+    <a href="../index.html" class="nav-logo">
+      <img alt="RL logo" src="../img/RLlogo.svg">
+    </a>
+    <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="../index.html#port-header" class="nav-link"
+            ><span class="strike">PORTFOLIO</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="../index.html#about-header" class="nav-link"
+            ><span class="strike">ABOUT ME</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <button type="submit" class="primary-btn" onclick="window.open('../CV.docx')">DOWNLOAD MY CV</button>
+        </li>
+    </ul>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+</header>
+<!-- Main –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <section class="project">        
+        <div class="project-container">
+          <img src="../img/arrow-back.png" data-aos="fade-right" data-aos-duration="700" class="arrow" alt="back-arrow" onclick="window.location='../index.html#port-header'">
+          <h1 data-aos="fade-right" data-aos-duration="700">DESIGN<span>CAVE</span></h1>
+          <img src="../img/designcaveinfo.png" id="project-img" alt="Designcave project on different devices" data-aos="fade-left" data-aos-duration="700">
+          <h3 data-aos="fade-right" data-aos-duration="700">Project description <span>(2. Semester - Group project)</span></h3>
+          <p data-aos="fade-right" data-aos-duration="700">For our final exam on 2nd semester, we worked closely with a small company called Designcave. Their site, at the time was very text heavy, and they did not display their products as desired. Based on this, we chose to make a redesign of their website. We chose to keep the visual identity, as it worked really well with their brand. Instead we focused on easing the site of text, as well as showcasing their products, which we did in the form of a lookbook.</p>
+          <button type="button" class="primary-btn" onclick="window.open('../designcave/index.html');return false">VIEW PROJECT</button>
+        </div>
+    </section>
+<!-- Footer Section ––––––––––––––––––––––––––––––––––––––––––––––––––-->
+<section class="footer-section">
+  <p>&copy;Rune Lehtonen 2021</p>
+</section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  <script src="../js/js.js"></script>
+</body>
+</html>
